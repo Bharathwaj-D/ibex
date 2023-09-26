@@ -1,9 +1,4 @@
-variable "vpcid"{
-    default = "vpc-0a4cd1c9550eb10a4"
-}
-variable "public_subnet"{
-    default = "subnet-03837f2ba90a7f7b8"
-}
-variable "instance_type"{
-    default= "t2.micro"
-}
+vpcid = "vpc-0a4cd1c9550eb10a4"
+public_subnet = "subnet-0375c38ed4163db2b"
+instance_type= "t2.micro"
+enviroment_name= "dev"
