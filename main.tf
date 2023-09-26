@@ -27,6 +27,9 @@ resource "aws_instance" "web" {
     instance_type =  var.instance_type 
     subnet_id = var.public_subnet
     vpc_security_group_ids = [aws_security_group.bharathsecurity.id]
+    tags = {
+           Name = var.enviroment_name
+    }
 } 
  
 
