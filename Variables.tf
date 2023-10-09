@@ -1,4 +1,12 @@
-variable "vpcid"{}
-variable "public_subnet"{}
-variable "instance_type"{}
-variable "enviroment_name"{}
+variable "vpcid"{
+    default = ""
+}
+variable "public_subnet"{
+    default = ""
+}
+variable "instance_type"{
+    default = ""
+}
+variable "enviroment_name"{
+    default = ""
+}
